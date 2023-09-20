@@ -1,0 +1,51 @@
+html{
+    background-color: grey;
+}
+
+#header{
+    text-align: center;
+    padding: 20px;
+    background-color: wheat;
+    height: 5vh;
+}
+
+#today_temp :nth-child(1){
+    font-size: 40px;
+    font-style: italic;
+}
+
+#today_temp :nth-child(2){
+    font-size: 20px;
+}
+
+#today_temp :nth-child(3){
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#today_temp :nth-child(4), :nth-child(5){
+    display: inline;
+}
+
+#today_temp{
+    text-align: center;
+    background-color: aqua;
+    width: 250px;
+}
+
+img{
+    position: absolute;
+    top: 75px;
+    right: 10px;
+    left: 600px;
+}
+
+#weekly{
+    position: relative;
+    bottom: 20px;
+    
+}
+
+#weekly, #today_temp{
+    display: inline-block;
+}
